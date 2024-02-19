@@ -10,6 +10,7 @@ class Agent():
         self.filename = self.generateFilename()
         self.filePath = None
 
+    # Generate random file name
     def generateFilename(self) -> str:
         fileName = int(round(time.time() * 1000))
         fileName = '{}.png'.format(fileName)
