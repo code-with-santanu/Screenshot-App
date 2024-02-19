@@ -13,9 +13,9 @@ if __name__ == "__main__":
 
     # Initilize the GUI window
     root = tk.Tk()
-
-    root.iconbitmap("./assets/myIcon.ico")
-    root.geometry("250x50")
+    root.title("ScreenshotSP")  # App title
+    root.iconbitmap("./assets/myIcon.ico")  # App icon
+    root.geometry("250x50")  # App default window resolution
 
     frame = tk.Frame(root)
     frame.pack()
