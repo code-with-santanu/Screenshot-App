@@ -1,17 +1,30 @@
 from screenshot import *
+from setDirectory import *
 
 import tkinter as tk
+import sys
 
+if __name__ == "__main__":
 
-#creating the frame
-root = tk.Tk()
-frame = tk.Frame(root)
-frame.pack()
+    # Storage setup
+    getpath = createStoragePath()
+    # create a Agent object that is gonna take screenshot
+    myAgent = Agent()
 
-button = tk.Button(frame, text = "Take Screenshot", command=screenshot)
-button.pack(side = tk.LEFT)
+    # Initilize the GUI window
+    root = tk.Tk()
 
-close = tk.Button(frame, text = "close", command=quit)
-close.pack(side= tk.LEFT)
+    root.iconbitmap("./assets/myIcon.ico")
+    root.geometry("250x50")
 
-root.mainloop()
+    frame = tk.Frame(root)
+    frame.pack()
+
+    button = tk.Button(frame, text="Take Screenshot",
+                       command=lambda: myAgent.screenshot(getpath))
+    button.pack(side=tk.LEFT)
+
+    close = tk.Button(frame, text="close", command=sys.exit)
+    close.pack(side=tk.LEFT)
+
+    root.mainloop()
