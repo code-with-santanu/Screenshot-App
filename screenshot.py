@@ -39,7 +39,11 @@ class Agent():
 
 # Define top level module
 if __name__ == "__main__":
+    from setDirectory import *
+
+    # Storage setup
+    getpath = createStoragePath()
     myAgent = Agent()
 
-    myAgent.screenshot(".")
+    myAgent.screenshot(getpath)
     time.sleep(3)
