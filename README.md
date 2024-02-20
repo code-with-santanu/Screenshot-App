@@ -17,13 +17,26 @@ It's a desktop screenshot application. Both CLI and GUI version is available to 
 
 ---
 
-## Downlod and Install the GUI version of the software to your system
+## Downlod and Execute the GUI version of the software to your system 💻
+
+1. Download the repo as zip and unzip it `or`
+   Clone the repo using: `git clone https://github.com/code-with-santanu/Screenshot-App.git`
+
+2. Move to `Screenshot-App\WindowsExecutable\App_v1.1.0` directory
+
+3. Double click on the `ScreenshotSP.exe` to execute on your system.<br>
+
+(You can also make a shortcut to your windows startup menu)
+
+<!-- ### (Check the installation demo before installing , bacause there is a unknown publisher issue) <br>
 
 ### Link of the installer 👉 [Screenshot App](https://drive.google.com/file/d/1V1qg5y7zR6KAMiq-neY5F8azmJVjRtxJ/view?usp=drive_link)
 
+### Demo of installation -->
+
 <!-- USAGE EXAMPLES -->
 
-## Usage : Command line usage
+## Usage : Command line usage 🖥️
 
 1. Clone the repository and go to the Screenshot-App directory (replace the [path] with the directory path on your system)
 
