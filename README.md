@@ -13,7 +13,9 @@ It's a desktop screenshot application. Both CLI and GUI version is available to 
 
 ### App preview:
 
-![App-preview image](./assets/demo.png)
+<p align="center">
+    <img  src="./assets/demo.png" alt="App-preview image">
+</p>
 
 ### Built With
 
