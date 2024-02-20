@@ -57,13 +57,13 @@ cd [path]
 pip install -r requirements.txt
 ```
 
-4. To execute the CLI version run:
+4. To execute the `CLI` version run:
 
 ```
 python screenshot.py
 ```
 
-5. To execute the GUI app through command-line, run:
+5. To execute the `GUI` app through command-line, run:
 
 ```
 python screenshotgui.py
