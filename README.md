@@ -19,7 +19,7 @@ It's a desktop screenshot application. Both CLI and GUI version is available to 
 
 ## Downlod and Install the GUI version of the software to your system
 
-### Link of the installer 👉 [Screenshot App](https://drive.google.com/file/d/1dJx_qmSCE1fliZpxj40CQE-2RfX3M1lW/view?usp=drive_link)
+### Link of the installer 👉 [Screenshot App](https://drive.google.com/file/d/1V1qg5y7zR6KAMiq-neY5F8azmJVjRtxJ/view?usp=drive_link)
 
 <!-- USAGE EXAMPLES -->
 
