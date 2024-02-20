@@ -9,7 +9,11 @@
 
 ## About The Project
 
-It's a desktop screenshot application. Both CLI and GUI version is available to use
+It's a desktop screenshot application. Both CLI and GUI version is available to use<br>
+
+### App preview:
+
+![App-preview image](./assets/demo.png)
 
 ### Built With
 
@@ -20,7 +24,11 @@ It's a desktop screenshot application. Both CLI and GUI version is available to 
 ## Downlod and Execute the GUI version of the software to your system 💻
 
 1. Download the repo as zip and unzip it `or`
-   Clone the repo using: `git clone https://github.com/code-with-santanu/Screenshot-App.git`
+   Clone the repo using:
+
+   ```
+   git clone https://github.com/code-with-santanu/Screenshot-App.git
+   ```
 
 2. Move to `Screenshot-App\WindowsExecutable\App_v1.1.0` directory
 
